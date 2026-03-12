@@ -1,4 +1,5 @@
-#  Haunted Task Manager
+# Hauntify: Haunted Task Manager
+
 
 > *"Some tasks disappear with one click... others refuse to leave."*
 
@@ -6,9 +7,7 @@ A creative and playful Task Management Web Application built with **Next.js** an
 
 Instead of simply removing tasks, the app occasionally reminds users that responsibilities don't always disappear that easily — sometimes they come back to haunt you.
 
-##  Live Demo
-
-🔗 **[View Live Demo]([https://hauntify.vercel.app](https://hauntify-ochre.vercel.app))
+**Live Project URL:** [https://contentgen-autopost.vercel.app](https://contentgen-autopost.vercel.app)
 
 ## ✨ Features
 
