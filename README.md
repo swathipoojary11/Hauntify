@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+#  Haunted Task Manager
 
-## Getting Started
+> *"Some tasks disappear with one click... others refuse to leave."*
 
-First, run the development server:
+A creative and playful Task Management Web Application built with **Next.js** and **Zustand**. This project adds a humorous supernatural twist to productivity by introducing a "Haunted Task" feature where some tasks resist deletion and come back with spooky surprises.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Instead of simply removing tasks, the app occasionally reminds users that responsibilities don't always disappear that easily — sometimes they come back to haunt you.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Live Demo
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🔗 **[View Live Demo](https://haunted-task-manager.vercel.app)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
 
-## Learn More
+###  Core Task Management
+- Add new tasks to your list
+- Mark tasks as completed
+- Delete tasks from your list
+- Restore recently deleted tasks
 
-To learn more about Next.js, take a look at the following resources:
+###  Haunted Task Feature
+When you attempt to delete a task, there's a random chance it becomes "haunted" instead of being deleted:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Task transforms into a spooky message
+- Purple-themed animation effect
+- Appears as a mischievous "ghost task"
+- Click **"Release Ghost"** to restore the task to its original state
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+###  Ghost-Themed UI
+- Dark mode interface optimized for spooky vibes
+- Animated haunted task transitions
+- Purple horror-inspired design elements
 
-## Deploy on Vercel
+##  The Story Behind the Project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Most productivity apps take themselves too seriously. They're efficient, minimal, and frankly — a bit boring.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+While building this project, I wondered: *What if your to-do list had a personality?*
+
+The inspiration struck from a simple life truth: **Some responsibilities don't just disappear when you ignore them. They come back to haunt you later.**
+
+So instead of treating unexpected task behavior as a bug, I intentionally turned it into a feature — a playful reminder that certain tasks simply refuse to be forgotten. This transforms the mundane act of task management into something more:
+
+- **Engaging** — Every deletion carries a hint of suspense
+- **Memorable** — You'll think twice before clicking that delete button
+- **Fun** — Because productivity shouldn't always feel like a chore
+
+##  Tech Stack
+
+- **Framework:** Next.js 16
+- **UI Library:** React
+- **State Management:** Zustand
+- **Styling:** Tailwind CSS
+- **Deployement:** Vercel
+
+## Author 
+Swathi Poojary 
+
