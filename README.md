@@ -8,7 +8,7 @@ Instead of simply removing tasks, the app occasionally reminds users that respon
 
 ##  Live Demo
 
-🔗 **[View Live Demo](https://haunted-task-manager.vercel.app)
+🔗 **[View Live Demo]([https://hauntify.vercel.app](https://hauntify-ochre.vercel.app))
 
 ## ✨ Features
 
@@ -52,7 +52,34 @@ So instead of treating unexpected task behavior as a bug, I intentionally turned
 - **State Management:** Zustand
 - **Styling:** Tailwind CSS
 - **Deployement:** Vercel
+t boring.
 
+##  Application Flow
+
+The application follows a simple and interactive workflow:
+
+1. **Add Tasks**
+   - The user first enters any task they want to complete
+   - They can add **multiple tasks** using the **Add Task** option
+
+2. **View Task List**
+   - After adding tasks, the user navigates to the **Task List page**
+   - Here, all the tasks that were added are displayed in a list
+
+3. **Complete or Delete Tasks**
+   - The user can complete tasks once they finish them
+   - If the user feels lazy or wants to remove a task, they may try to **delete it by clicking the cross (✕) button**
+
+4. **Haunted Task Moment 👻**
+   - Sometimes, when the user clicks the delete button, the task **does not disappear**
+   - Instead, it transforms into a **Haunted Task** with a spooky message
+   - This represents the idea that **some responsibilities refuse to disappear easily**
+
+5. **Release the Ghost**
+   - The user can click **Release Ghost** to restore the task to its original form
+   - The task then returns to normal and can be completed later
+
+This flow adds a playful twist to productivity by turning a normal delete action into a **fun and unexpected interaction**.
 ## Author 
 Swathi Poojary 
 
