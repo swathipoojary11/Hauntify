@@ -7,7 +7,7 @@ A creative and playful Task Management Web Application built with **Next.js** an
 
 Instead of simply removing tasks, the app occasionally reminds users that responsibilities don't always disappear that easily — sometimes they come back to haunt you.
 
-**Live Project URL:** [https://contentgen-autopost.vercel.app](https://hauntify-ochre.vercel.app)
+**Live Project URL:** [https://hauntify-ochre.vercel.app](https://hauntify-ochre.vercel.app)
 
 ## ✨ Features
 
